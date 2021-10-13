@@ -1,0 +1,24 @@
+
+def determine_hobby_by_temp(temp):
+    if ((temp>=0 and temp<=40) or (temp>=85 and temp<=105)):
+        answer="Stay inside."
+        return answer
+    elif (temp>=41 and temp<=59):
+        answer="Play football."
+        return answer
+    elif (temp>=60 and temp<=80):
+        answer="Play soccer."
+        return answer
+    elif (temp>=81 and temp<=85):
+        answer="Play basketball."
+        return answer
+    else:
+        answer="Invalid input."
+        return answer
+
+def main():
+    temp= float(input("Enter the temperature in fahrenheit: "))
+    hobby=determine_hobby_by_temp(temp)
+    print(hobby)
+
+main()
