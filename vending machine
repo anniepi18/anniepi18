@@ -1,0 +1,36 @@
+Quarter=25
+Nickel=5
+Dime=10
+amount_paid=100
+change=0
+
+
+def calculate_change(cost_of_item):
+    number_of_quarters=0
+    number_of_dimes=0
+    number_of_nickels=0
+    change=int(amount_paid-cost_of_item)
+    number_of_quarters=change//Quarter
+    change=change%Quarter
+    if 10<=change<=20:
+        number_of_dimes=change//Dime
+        change=change%Dime
+    if change==5:
+        number_of_nickels=change//Nickel
+        change=change%Nickel
+    return (number_of_quarters, number_of_dimes, number_of_nickels)
+def main():
+    quarter_return=" quarters,"
+    dime_return=" dimes, and "
+    nickel_return=" nickels."
+    cost_of_item=int(input("Enter the cost of item in cents:"))
+    (number_of_quarters, number_of_dimes, number_of_nickels)=calculate_change(cost_of_item)
+    if number_of_quarters==1:
+        quarter_return=" quarter, "
+    if number_of_dimes==1:
+        dime_return=" dime, and "
+    if number_of_nickels==1:
+        nickel_return=" nickel."
+    print("Your change is ", number_of_quarters,quarter_return, number_of_dimes,dime_return,number_of_nickels,nickel_return)
+
+main()
