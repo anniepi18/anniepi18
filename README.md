@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Annie Pi!
 - 👀 I’m interested in coding, technology, and philosophy.
-- 🌱 I’m currently learning python!
+- 🌱 I’m currently learning java!
 - 📫 How to reach me: api9@unc.edu or cell (984)-218-8067
 
 <!---
