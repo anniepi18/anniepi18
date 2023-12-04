@@ -1,7 +1,8 @@
 - 👋 Hi, I’m Annie Pi!
-- 👀 I’m interested in coding, technology, and philosophy.
-- 🌱 I’m currently learning java!
-- 📫 How to reach me: api9@unc.edu or cell (984)-218-8067
+- 👀 I’m a junior at UNC-Chapel Hill.
+- 🤩 I like playing chess, reading, hiking, & shopping :) 
+- 🌱 I’m currently learning JS+TS!
+- 📫 How to reach me: api9@unc.edu
 
 <!---
 anniepi18/anniepi18 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
